@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Ebay App Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="85.944">
+  <properties />
+  
+  
+            <testcase name="SwipeScroll" time="4.747" classname="testcases.ebay.EbayTest" />
+                <testcase name="login" time="36.694" classname="testcases.ebay.EbayTest" />
+                <testcase name="Shopping" time="44.503" classname="testcases.ebay.EbayTest" />
+      
+</testsuite>

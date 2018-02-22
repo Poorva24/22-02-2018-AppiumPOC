@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[In login]]>
+    </line>
+    <line>
+      <![CDATA[Login function executed]]>
+    </line>
+    <line>
+      <![CDATA[Add Product function executed]]>
+    </line>
+    <line>
+      <![CDATA[Scroll function executed]]>
+    </line>
+  </reporter-output>
+  <suite name="Ebay Test suite" duration-ms="88024" started-at="2018-02-22T04:55:26Z" finished-at="2018-02-22T04:56:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="88024" started-at="2018-02-22T04:55:26Z" finished-at="2018-02-22T04:56:54Z">
+      <class name="testcases.ebay.EbayTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.ebay.EbayTest@587e5365]" name="setUp" is-config="true" duration-ms="23170" started-at="2018-02-22T10:25:03Z" finished-at="2018-02-22T10:25:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.ebay.EbayTest@587e5365]" name="init" is-config="true" duration-ms="240" started-at="2018-02-22T10:25:26Z" finished-at="2018-02-22T10:25:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.ebay.EbayTest@587e5365]" name="login" duration-ms="35545" started-at="2018-02-22T10:25:27Z" finished-at="2018-02-22T10:26:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[In login]]>
+            </line>
+            <line>
+              <![CDATA[Login function executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="Shopping()[pri:0, instance:testcases.ebay.EbayTest@587e5365]" name="Shopping" duration-ms="47487" started-at="2018-02-22T10:26:02Z" finished-at="2018-02-22T10:26:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Add Product function executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Shopping -->
+        <test-method status="PASS" signature="SwipeScroll()[pri:0, instance:testcases.ebay.EbayTest@587e5365]" name="SwipeScroll" duration-ms="4723" started-at="2018-02-22T10:26:50Z" finished-at="2018-02-22T10:26:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Scroll function executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SwipeScroll -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.ebay.EbayTest@587e5365]" name="tearDown" is-config="true" duration-ms="3186" started-at="2018-02-22T10:26:55Z" finished-at="2018-02-22T10:26:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ebay.EbayTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Ebay Test suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+<suite name="TestNG Ebay">
+
+	<listeners>
+
+		<listener class-name="listener.CustomListeners"></listener>
+		<listener class-name="listener.ExtentReporterNG"></listener>
+
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	
+	
+	</listeners>
+	<test name="Ebay App Test">
+		<classes>
+			<class name="testcases.ebay.EbayTest"></class>
+		</classes>
+	</test>
+
+
+
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite ebay="DEVELOPMENT" name="Ebay Test suite">
+  <test name="Default test">
+    <classes>
+      <class name="testcases.ebay.EbayTest">
+        <methods>
+          <include name="StartEbay"/>
+          <include name="login"/>
+          <include name="Shopping"/>
+          <include name="SwipeScroll"/>
+        </methods>
+      </class> <!-- testcases.ebay.EbayTest -->
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- [Default suite] -->
